@@ -1,0 +1,79 @@
+site_name: Computer Vision & Robotics Master Handbook
+site_description: Production-grade study guide covering OpenCV, 3D Geometry, SLAM, PyTorch, and Robotics Perception.
+site_author: Jashwanth
+site_url: https://jashu-16.github.io/cv_learning/
+repo_url: https://github.com/jashu-16/cv_learning
+repo_name: jashu-16/cv_learning
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.view
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - tables
+  - attr_list
+  - def_list
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - OpenCV Engineering:
+      - "Part 1: Fundamentals (Ch 1-6)": opencv/part1_fundamentals.md
+      - "Part 2: Image Processing (Ch 7-13)": opencv/part2_processing.md
+      - "Part 3: Features & Video (Ch 14-19)": opencv/part3_features_video.md
+      - "Part 4: 3D Geometry & Stereo (Ch 20-25)": opencv/part4_3d_geometry.md
+      - "Part 5: DNN & Systems (Ch 26-32)": opencv/part5_dnn_systems.md
+      - "Part 6: Robotics & SLAM (Ch 33-39)": opencv/part6_robotics.md
+      - "Full Monolithic Guide (All 39 Ch)": opencv/full_guide.md
+  - PyTorch Deep Learning:
+      - "Deep Learning for Computer Vision": pytorch/deep_learning_guide.md

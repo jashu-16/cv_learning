@@ -1,0 +1,20 @@
+/* Custom enhancements for OpenCV study guide */
+:root {
+  --md-primary-fg-color: #2563eb;
+  --md-primary-fg-color--light: #3b82f6;
+  --md-primary-fg-color--dark: #1d4ed8;
+  --md-accent-fg-color: #7c3aed;
+}
+
+/* Ensure code blocks and tables have nice scrolling */
+.md-typeset table:not([class]) {
+  display: inline-block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Ensure diagrams don't overflow */
+.mermaid {
+  text-align: center;
+  margin: 1.5rem 0;
+}
