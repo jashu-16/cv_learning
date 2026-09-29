@@ -13,19 +13,19 @@ These notes are designed as a **practical, step-by-step student notebook**. Ever
 ---
 
 ## Table of Contents
-1. [Module 01: PyTorch Tensors & GPU Basics (NumPy to PyTorch)](#module-01-pytorch-tensors--gpu-basics-numpy-to-pytorch)
-2. [Module 02: How Neural Networks Learn (Autograd & The 5-Step Training Loop)](#module-02-how-neural-networks-learn-autograd--the-5-step-training-loop)
-3. [Module 03: Loading Real Image Datasets (Dataset, DataLoader & Augmentations)](#module-03-loading-real-image-datasets-dataset-dataloader--augmentations)
-4. [Module 04: Building CNNs from Scratch (Convolutions, Pooling & Receptive Fields)](#module-04-building-cnns-from-scratch-convolutions-pooling--receptive-fields)
-5. [Module 05: Modern Backbones & Transfer Learning (ResNet, MobileNet, Fine-Tuning)](#module-05-modern-backbones--transfer-learning-resnet-mobilenet-fine-tuning)
+1. [Module 01: PyTorch Tensors & GPU Basics (NumPy to PyTorch)](#module-01-pytorch-tensors-gpu-basics-numpy-to-pytorch)
+2. [Module 02: How Neural Networks Learn (Autograd & The 5-Step Training Loop)](#module-02-how-neural-networks-learn-autograd-the-5-step-training-loop)
+3. [Module 03: Loading Real Image Datasets (Dataset, DataLoader & Augmentations)](#module-03-loading-real-image-datasets-dataset-dataloader-augmentations)
+4. [Module 04: Building CNNs from Scratch (Convolutions, Pooling & Receptive Fields)](#module-04-building-cnns-from-scratch-convolutions-pooling-receptive-fields)
+5. [Module 05: Modern Backbones & Transfer Learning (ResNet, MobileNet, Fine-Tuning)](#module-05-modern-backbones-transfer-learning-resnet-mobilenet-fine-tuning)
 6. [Module 06: Vision Transformers (ViT) Made Simple](#module-06-vision-transformers-vit-made-simple)
-7. [Module 07: Practical Loss Functions & Metrics for Vision](#module-07-practical-loss-functions--metrics-for-vision)
-8. [Module 08: Object Detection in Practice (Bounding Boxes, NMS & YOLO/Faster R-CNN)](#module-08-object-detection-in-practice-bounding-boxes-nms--yolofaster-r-cnn)
+7. [Module 07: Practical Loss Functions & Metrics for Vision](#module-07-practical-loss-functions-metrics-for-vision)
+8. [Module 08: Object Detection in Practice (Bounding Boxes, NMS & YOLO/Faster R-CNN)](#module-08-object-detection-in-practice-bounding-boxes-nms-yolofaster-r-cnn)
 9. [Module 09: Image Segmentation with U-Net (Pixel-Level Classification)](#module-09-image-segmentation-with-u-net-pixel-level-classification)
-10. [Module 10: Vision Foundation Models (CLIP, DINOv2 & Segment Anything / SAM)](#module-10-vision-foundation-models-clip-dinov2--segment-anything--sam)
-11. [Module 11: Exporting Models for Production (ONNX & Real-Time Inference)](#module-11-exporting-models-for-production-onnx--real-time-inference)
+10. [Module 10: Vision Foundation Models (CLIP, DINOv2 & Segment Anything / SAM)](#module-10-vision-foundation-models-clip-dinov2-segment-anything-sam)
+11. [Module 11: Exporting Models for Production (ONNX & Real-Time Inference)](#module-11-exporting-models-for-production-onnx-real-time-inference)
 12. [Module 12: Real-Time Live Webcam Deep Learning Pipeline](#module-12-real-time-live-webcam-deep-learning-pipeline)
-13. [Module 13: Top 10 PyTorch Gotchas & Practical Interview Cheatsheet](#module-13-top-10-pytorch-gotchas--practical-interview-cheatsheet)
+13. [Module 13: Top 10 PyTorch Gotchas & Practical Interview Cheatsheet](#module-13-top-10-pytorch-gotchas-practical-interview-cheatsheet)
 
 ---
 
